@@ -11,6 +11,7 @@ def processResponse():
         if (str(input("Do you want a list of all matches? [y/n] ")) == "y"):
             print("A full list of all matches:")
             for match in matches: print(match["url"])
+            input("Press ENTER to continue...")
         else: pass
     except:
         print("No result found.")
