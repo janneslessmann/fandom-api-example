@@ -15,6 +15,7 @@ def processResponse():
         else: pass
     except:
         print("No result found.")
+        input("Press ENTER to continue...")
 
 # API request
 def doSearchQuery():
